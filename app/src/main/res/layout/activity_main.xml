@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/product"
+            android:textColor="@color/title_text"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/name_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/price_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/price"
+            android:inputType="numberDecimal"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tags_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tags"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/serialize_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/serializ"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/json_string"
+            android:textColor="@color/title_text"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/json_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="@color/box_text"
+            android:background="@color/box_background"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/deserialize_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deserializ"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/obj"
+            android:textColor="@color/title_text"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/result_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="@color/box_text"
+            android:background="@color/box_background"/>
+
+    </LinearLayout>
+
+</ScrollView>

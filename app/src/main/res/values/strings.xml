@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">json_pr_31_panarin</string>
+    <string name="product">Товар</string>
+    <string name="name">Название</string>
+    <string name="price">Цена</string>
+    <string name="tags">Теги через запятую</string>
+    <string name="serializ">Сериализовать</string>
+    <string name="json_string">JSON-строка:</string>
+    <string name="deserializ">Десериализовать</string>
+    <string name="obj">Объект Product:</string>
+</resources>
